@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "version": "2026-10-18",
+  "stand": "Beträge laut BMG-Broschüre „Pflegeleistungen zum Nachschlagen“, Stand 07/2026",
+  "sources": [
+    { "title": "BMG: Pflegeleistungen zum Nachschlagen (Stand 07/2026)", "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/5_Publikationen/Pflege/Broschueren/BMG_Pflegeleistungen_zum_Nachschlagen_bf.pdf" },
+    { "title": "§ 39 SGB XI: Erstattung Verhinderungspflege bis Ende des Folgejahres", "url": "https://www.gesetze-im-internet.de/sgb_11/__39.html" },
+    { "title": "§ 45b SGB XI: Entlastungsbetrag", "url": "https://www.gesetze-im-internet.de/sgb_11/__45b.html" },
+    { "title": "AOK: Stand Pflegeneuordnungsgesetz (PNOG)", "url": "https://www.aok.de/pp/gesetz/pnog/" }
+  ],
+  "years": {
+    "2025": {
+      "confirmed": true,
+      "entlastungsbetragMonat": { "1": 131, "2": 131, "3": 131, "4": 131, "5": 131 },
+      "entlastungsbetragUebertragBis": "06-30",
+      "entlastungsbudgetJahr": { "2": 3539, "3": 3539, "4": 3539, "5": 3539 },
+      "entlastungsbudgetHinweis": "Das gemeinsame Jahresbudget gilt seit 01.07.2025. Für das erste Halbjahr 2025 galten getrennte Beträge für Verhinderungs- und Kurzzeitpflege.",
+      "verhinderungspflegeAngehoerigeJahr": { "2": 694, "3": 1198, "4": 1600, "5": 1980 },
+      "pflegegeldMonat": { "2": 347, "3": 599, "4": 800, "5": 990 },
+      "sachleistungMonat": { "2": 796, "3": 1497, "4": 1859, "5": 2299 },
+      "tagespflegeMonat": { "2": 721, "3": 1357, "4": 1685, "5": 2085 },
+      "pflegehilfsmittelMonat": 42,
+      "wohnumfeldProMassnahme": 4180,
+      "umwandlungProzent": 40,
+      "kurzzeitpflegeWochen": 8,
+      "beratung": { "pflichtPflegegrade": [2, 3, 4, 5], "intervallMonate": 6, "optionalQuartalPflegegrade": [4, 5] },
+      "belegFristFolgejahre": 1
+    },
+    "2026": {
+      "confirmed": true,
+      "entlastungsbetragMonat": { "1": 131, "2": 131, "3": 131, "4": 131, "5": 131 },
+      "entlastungsbetragUebertragBis": "06-30",
+      "entlastungsbudgetJahr": { "2": 3539, "3": 3539, "4": 3539, "5": 3539 },
+      "verhinderungspflegeAngehoerigeJahr": { "2": 694, "3": 1198, "4": 1600, "5": 1980 },
+      "pflegegeldMonat": { "2": 347, "3": 599, "4": 800, "5": 990 },
+      "sachleistungMonat": { "2": 796, "3": 1497, "4": 1859, "5": 2299 },
+      "tagespflegeMonat": { "2": 721, "3": 1357, "4": 1685, "5": 2085 },
+      "pflegehilfsmittelMonat": 42,
+      "wohnumfeldProMassnahme": 4180,
+      "umwandlungProzent": 40,
+      "kurzzeitpflegeWochen": 8,
+      "beratung": { "pflichtPflegegrade": [2, 3, 4, 5], "intervallMonate": 6, "optionalQuartalPflegegrade": [4, 5] },
+      "belegFristFolgejahre": 1
+    }
+  },
+  "notices": [
+    {
+      "id": "pnog-2027",
+      "title": "Pflegereform für 2027 geplant",
+      "text": "Laut Kabinettsentwurf (30.09.2026) soll der Entlastungsbetrag bei Pflegegrad 1 ab 2027 entfallen. Das Gesetz ist noch nicht beschlossen (Bundestag voraussichtlich 11.12.2026, Bundesrat 18.12.2026). Die App wird nach dem Beschluss aktualisiert.",
+      "url": "https://www.aok.de/pp/gesetz/pnog/",
+      "showUntil": "2027-03-31",
+      "pflegegrade": [1]
+    }
+  ]
+}
